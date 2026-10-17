@@ -70,7 +70,7 @@ export const initStorage = () => {
   }
   if (!localStorage.getItem(STORAGE_KEYS.SETTINGS)) {
     setStoredData(STORAGE_KEYS.SETTINGS, {
-      whatsappNumber: '+91 98112 00990',
+      whatsappNumber: '+91 00000 00000',
       supportEmail: 'care@helphive.in',
       supportPhone: '1800-419-4483',
       cityAvailability: ['Delhi NCR', 'Bengaluru', 'Mumbai', 'Hyderabad', 'Chennai', 'Pune']
@@ -87,7 +87,7 @@ export const resetStorageToDefaults = () => {
   setStoredData(STORAGE_KEYS.FAQS, initialFaqs);
   setStoredData(STORAGE_KEYS.PRICING, defaultPricingConfig);
   setStoredData(STORAGE_KEYS.SETTINGS, {
-    whatsappNumber: '+91 98112 00990',
+    whatsappNumber: '+91 00000 00000',
     supportEmail: 'care@helphive.in',
     supportPhone: '1800-419-4483',
     cityAvailability: ['Delhi NCR', 'Bengaluru', 'Mumbai', 'Hyderabad', 'Chennai', 'Pune']
